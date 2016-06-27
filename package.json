@@ -1,0 +1,39 @@
+{
+  "name": "builder-project",
+  "version": "0.0.1",
+  "description": "builder tasks for project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valleykid/builder-project.git"
+  },
+  "keywords": [
+    "builder"
+  ],
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-less": "^3.1.0",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-newer": "^1.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-uglify": "^1.5.3",
+    "gulp-watch": "^4.3.8",
+    "less-plugin-functions": "0.0.2",
+    "merge-stream": "^1.0.0",
+    "through2": "^2.0.1",
+    "webpack": "^1.13.1"
+  },
+  "author": "vk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valleykid/builder-project/issues"
+  },
+  "homepage": "https://github.com/valleykid/builder-project#readme"
+}
